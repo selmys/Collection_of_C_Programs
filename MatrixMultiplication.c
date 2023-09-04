@@ -16,8 +16,8 @@ int main(){
     scanf("%d %d",&ai,&aj);
     printf("Enter dimensions of array B <row col>: ");
     scanf("%d %d",&bi,&bj);
-    // check if ai == bj
-    if(ai != bj){
+    // check if aj == bi
+    if(aj != bi){
         printf("A and B are incompatible!\n");
         return 0;
     }
